@@ -5,11 +5,13 @@ import Constants from 'expo-constants';
 //Exemplos
 import Exemplo01 from './src/exemplos/exemplo-01';
 
+//Atividades
+
 export default function App() {
   return (
     <View style={styles.container}>
       <Exemplo01/>
-      <StatusBar style="light" />
+      <StatusBar style="light"/>
     </View>
   );
 }
