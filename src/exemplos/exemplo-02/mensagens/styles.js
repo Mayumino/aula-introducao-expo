@@ -9,7 +9,18 @@ const styles = StyleSheet.create({
         padding: RFPercentage(1.5),
         width:'90%',
         alignItems:'center',
+        marginBottom: RFPercentage(1),
     },
+
+    titulo: {
+        fontSize: RFPercentage(3.5),
+        fontWeight: 'bold',
+        color: 'darkslategray',
+    },
+    mensagem: {
+        fontSize: RFPercentage(2),
+        color: '#222222',
+    }
 
 });
 
