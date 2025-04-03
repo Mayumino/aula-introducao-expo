@@ -8,8 +8,28 @@ function Exemplo03 () {
         Alert.alert('alerta', 'Alguém clicou no botão!')
     }
 
-    const handleExibeButton2 () => {
-        Alert.alert('alerta', 'Alguém clicou no botão!')
+    const handleExibeButton2 = () => {
+        Alert.alert('alerta', 'Alguém clicou no botão!',
+            [
+                {
+                    text: 'Sim',
+                    onPress: () => Alert.alert('Mensagem', 'Clicou em sim.'),
+                    style: 'default'
+
+                    {
+                        text: 'Não',
+                        onPress: () => Alert.alert('Clicou em nim.'),
+                        style: 'default'
+                    }
+
+                    {
+                        text: 'Cancelar',
+                        onPress: () => Alert.alert('Mensagem', 'Clicou em sim.'),
+                        style: 'default'
+                    }
+                }
+            ]
+        )
     }
 
     return(
