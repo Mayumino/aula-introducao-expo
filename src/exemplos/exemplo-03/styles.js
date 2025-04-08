@@ -27,9 +27,32 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
 
-    text: {
+    texto: {
         fontSize: RFPercentage(2.2),
+        marginBottom: RFPercentage(2)
     },
+
+    
+
+    valor: {
+        color: 'darkslategray',
+        fontSize: RFPercentage(4),
+    },
+
+    botao: {
+        backgroundColor:'darkslategray',
+        width: '75%',
+        borderRadius: RFPercentage(2),
+        padding: RFPercentage(1.5),
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: RFPercentage(1),
+    },
+
+    txtBotao: {
+        fontSize: RFPercentage(2),
+        color:'#fafafa',
+    }
 });
 
 export default styles;
