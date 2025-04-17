@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     titulo: {
         fontSize: RFPercentage(3),
         marginTop: 20,
-        //marginBottom: 5,
+        marginBottom: 40,
         padding: RFPercentage(1.5),
         width: '100%',
         textAlign: 'center',
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         width: '75%',
         borderRadius: RFPercentage(2),
         padding: RFPercentage(1.5),
-        alignItems: 'center',
+        alignSelf: 'center',
         justifyContent: 'center',
         margin: RFPercentage(1),
     },
@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
     txtBotao: {
         fontSize: RFPercentage(2),
         color:'#fafafa',
-    }
+        alignSelf: 'center'
+    },
 
 });
 
