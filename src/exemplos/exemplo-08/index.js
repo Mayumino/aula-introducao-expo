@@ -7,7 +7,7 @@ import AddItem from './addItem';
 
 import styles from './styles';
 
-export default function Exemplo8() {
+export default function Exemplo08() {
 
     const [items, setItems] = useState([
         { id: uuid.v4(), text: 'Leite integral' },

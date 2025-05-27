@@ -6,7 +6,7 @@ import Display from './display';
 
 import styles from './styles';
 
-export default function Exemplo07() {
+function Exemplo07() {
 
     const [displayValue, setDisplayValue] = useState('0');
     const [clearDisplay, setClearDisplay] = useState(false);
@@ -101,3 +101,4 @@ export default function Exemplo07() {
     );
 }
 
+export default Exemplo07;
